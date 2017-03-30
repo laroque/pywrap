@@ -1,0 +1,6 @@
+# editors
+*.swp
+
+# build output
+*.o
+*.so

@@ -1,4 +1,4 @@
-#include "depart.h";
+#include "depart.h"
 
 char const* depart()
 {

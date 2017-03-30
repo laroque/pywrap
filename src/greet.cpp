@@ -1,4 +1,4 @@
-#include "greet.h";
+#include "greet.h"
 
 char const* greet()
 {

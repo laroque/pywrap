@@ -1,9 +1,11 @@
 #include "depart.h"
 #include <boost/python.hpp>
 
-//BOOST_PYTHON_MODULE(talkpy)
+#ifndef DEPARTPY
+#define DEPARTPY
 void export_depart()
 {
     using namespace boost::python;
-    def("depart", depart);
+    def("depart", depart, "function that says bye");
 }
+#endif

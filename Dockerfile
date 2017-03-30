@@ -5,6 +5,8 @@ RUN apt-get update && apt-get install -y \
     cmake \
     cmake-curses-gui \
     python-dev \
-    libboost-all-dev
+    libboost-all-dev \
+    ipython
+
 
 ADD src /code

@@ -19,5 +19,5 @@ set_target_properties( talkpy PROPERTIES PREFIX "" )
 
 # another lib
 add_library( usrpy SHARED usrpy.cpp )
-target_link_libraries( usrpy ${Boost_LIBRARIES} usrc talkc)
+target_link_libraries( usrpy ${Boost_LIBRARIES} usrc talkc talkpy)
 set_target_properties( usrpy PROPERTIES PREFIX "" )
